@@ -29,9 +29,9 @@ nav {
   cursor: pointer;
 }
 .logo-container {
-    display: flex;
-    align-items: center; 
-    gap: 11px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
 }
 span {
   color: #4caf50;
@@ -51,17 +51,17 @@ nav ul li a {
   letter-spacing: 0%;
 }
 nav ul li:nth-child(1) a {
-    color: rgb(1, 172, 253);
-  }  
-  nav ul li:nth-child(2) a {
-    color: rgb(14, 165, 19);
-  }
-  nav ul li:nth-child(3) a {
-    color: rgb(93, 88, 239);
-  }
-  nav ul li:nth-child(4) a {
-    color: rgb(5, 212, 223);
-  }
+  color: rgb(1, 172, 253);
+}
+nav ul li:nth-child(2) a {
+  color: rgb(14, 165, 19);
+}
+nav ul li:nth-child(3) a {
+  color: rgb(93, 88, 239);
+}
+nav ul li:nth-child(4) a {
+  color: rgb(5, 212, 223);
+}
 nav ul li a:hover {
   color: rgb(139, 69, 19);
   transition: 0.4s;
@@ -78,4 +78,26 @@ nav ul li a:hover {
 }
 .btn:hover {
   transform: scale(1.2);
+}
+.menu-btn {
+  position: absolute;
+  top: 55px;
+  right: 30px;
+  width: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+/* Responsive part for Navbar section  */
+/* only for mobile devices */
+@media only screen and (max-width: 576px) {
+  .menu-btn {
+    display: block;
+    border-radius: 5px;
+  }
+  nav ul li,
+  .btn,
+  .logo {
+    display: none;
+  }
 }
