@@ -575,7 +575,7 @@ section {
   letter-spacing: 0%;
   text-align: left;
   align-items: top;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 .part-2 ul {
   padding-top: 40px;
@@ -605,7 +605,6 @@ section {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
-
 }
 .footer-icon {
   display: flex;
@@ -615,4 +614,28 @@ section {
 }
 .footer-icon img {
   border-radius: 4px;
+}
+.display {
+  display: none;
+}
+
+/* Responsive part for footer section  */
+/* only for mobile devices */
+@media only screen and (max-width: 576px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 20px;
+    padding: 60px 0px 20px 0px;
+    background: rgb(1, 172, 253);
+  }
+  .part-1,
+  .part-2,
+  .part-3 {
+    margin-left: 20px;
+  }
+  .part-1 {
+    padding-top: 20px;
+  }
 }
