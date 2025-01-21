@@ -314,6 +314,10 @@ nav ul li a:hover {
 @media only screen and (max-width: 576px) {
   .curriculum-container {
     flex-direction: column;
+    padding: 20px;
+  }
+  .curriculum-icon {
+    display: none;
   }
 }
 
@@ -644,6 +648,7 @@ section {
     gap: 20px;
     padding: 60px 0px 20px 0px;
     background: rgb(1, 172, 253);
+    border: none;
   }
   .part-1,
   .part-2,
