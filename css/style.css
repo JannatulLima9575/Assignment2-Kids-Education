@@ -163,7 +163,7 @@ nav ul li a:hover {
   .banner-desc {
     text-align: center;
   }
-  .btn-primary  {
+  .btn-primary {
     width: 100%;
     max-width: 200px;
     margin: 20px auto;
@@ -322,9 +322,11 @@ nav ul li a:hover {
 }
 
 /* Stories Section  */
-section {
+.second-main {
   background: url("../images/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    border: 1px solid rgb(31, 7, 255);
+    padding: 30px 0px 30px 0px;
 }
 .stories {
   max-width: 1600px;
@@ -332,7 +334,8 @@ section {
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+
+  border: 1px solid red;
 }
 .stories-title {
   color: rgb(0, 0, 0);
@@ -548,13 +551,11 @@ section {
 
 /* footer section  */
 .footer {
-  /* background: rgb(1, 172, 253); */
   background-color: #5d58f0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 123px 228px 174px 140px;
-  border: 1px solid red;
 }
 .footer-logo {
   display: flex;
