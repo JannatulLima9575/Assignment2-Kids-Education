@@ -16,6 +16,8 @@ header {
   width: 100%;
 }
 nav {
+  max-width: 1800px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -110,9 +112,10 @@ nav ul li a:hover {
 /* Banner Section  */
 .banner {
   display: flex;
-  padding: 0 5%;
   max-width: 1800px;
   margin: 0 auto;
+  padding-left: 8%;
+  padding-right: 8%;
   gap: 50px;
   overflow: hidden;
 
@@ -154,9 +157,14 @@ nav ul li a:hover {
 .btn-primary:hover {
   transform: scale(1.2);
 }
-.banner-right {
+/* .banner-right {
   height: auto;
   object-fit: cover;
+} */
+.banner-right img 
+{
+  padding-left: 68%;
+  overflow-y: hidden;
 }
 
 /* Responsive part for Banner section  */
@@ -182,6 +190,8 @@ nav ul li a:hover {
 
 /* Curriculum Section */
 .curriculum {
+  max-width: 1800px;
+  margin: 0 auto;
   background: url("../images/bg.png");
   gap: 80px;
   padding: 60px 0px 60px 0px;
@@ -281,6 +291,9 @@ nav ul li a:hover {
   letter-spacing: 0%;
   text-align: center;
 }
+.btn1:hover {
+  color: #4caf50;
+}
 .btn2 {
   color: rgb(240, 170, 0);
   font-family: Quicksand;
@@ -290,6 +303,9 @@ nav ul li a:hover {
   letter-spacing: 0%;
   text-align: center;
 }
+.btn2:hover {
+  color: #4caf50;
+}
 .btn3 {
   color: rgb(135, 0, 255);
   font-family: Quicksand;
@@ -298,6 +314,9 @@ nav ul li a:hover {
   line-height: 28.3px;
   letter-spacing: 0%;
   text-align: center;
+}
+.btn3:hover {
+  color: #4caf50;
 }
 .curriculum-icon {
   display: flex;
@@ -320,6 +339,9 @@ nav ul li a:hover {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+}
+.curriculum-btn:hover {
+  transform: scale(1.2);
 }
 
 /* Responsive part for curriculum section  */
@@ -344,7 +366,7 @@ nav ul li a:hover {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  background-color: whitesmoke;
+  background: whitesmoke;
   padding: 10px 0;
   text-align: center;
   position: relative;
@@ -358,7 +380,7 @@ nav ul li a:hover {
   font-family: Quicksand;
   animation: slide-left 20s linear infinite;
   text-align: center;
-  color: #007bff;
+  color: rgb(93, 88, 239);
 }
 /* .text-one {
   color: #007bff;
@@ -394,9 +416,10 @@ nav ul li a:hover {
   padding: 30px 0px 30px 0px;
 }
 .stories {
-  max-width: 1600px;
-  margin: 80px auto;
-  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding-left: 8%;
+  padding-right: 8%;
   justify-content: center;
   align-items: center;
 }
@@ -411,7 +434,7 @@ nav ul li a:hover {
 }
 
 .stories-container {
-  max-width: 1536px;
+  max-width: 1600px;
   width: 85%;
   margin: 60px auto 0px auto;
   padding: 60px 0px 60px 0px;
@@ -452,7 +475,8 @@ nav ul li a:hover {
   line-height: 38.35px;
   letter-spacing: 0%;
   margin-left: 40px;
-  margin-top: 38px;
+  margin-top: 20px;
+  padding-bottom: 10px;
 }
 .left-description {
   color: rgb(102, 102, 102);
@@ -461,8 +485,9 @@ nav ul li a:hover {
   font-weight: 500;
   line-height: 28.76px;
   letter-spacing: 0%;
-  margin-top: 51px;
+  margin-top: 8px;
   margin-left: 40px;
+  padding-bottom: 8px;
 }
 
 .right-site {
@@ -497,8 +522,8 @@ nav ul li a:hover {
   font-weight: 500;
 }
 .card1-btn:hover {
-  background-color: rgb(255, 242, 0);
-  color: #000003;
+  background-color: rgb(0, 102, 255);
+  color: white;
 }
 
 .s-card-2 {
@@ -526,6 +551,10 @@ nav ul li a:hover {
   font-size: 0.9rem;
   font-weight: 500;
 }
+.card2-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
 .s-card-3 {
   max-width: 290px;
   box-sizing: border-box;
@@ -550,6 +579,10 @@ nav ul li a:hover {
   font-family: Raleway;
   font-size: 0.9rem;
   font-weight: 500;
+}
+.card3-btn:hover {
+  background-color: rgb(0, 102, 255);
+  color: white;
 }
 .s-card-4 {
   max-width: 290px;
@@ -607,9 +640,13 @@ nav ul li a:hover {
   padding: 12px 50px;
   border-radius: 12px;
   color: white;
+  font-size: bold;
   margin-left: 100px;
   margin-top: 88px;
   background: rgb(17, 17, 17);
+}
+.view-btn:hover {
+  transform: scale(1.2);
 }
 
 /* Responsive part for stories section  */
@@ -647,8 +684,8 @@ nav ul li a:hover {
   text-align: left;
 }
 .foot-img {
-  width: 82.9px;
-  height: 88px;
+  width: 80px;
+  height: 86px;
 }
 .logo-disc {
   color: rgb(255, 255, 255);
@@ -688,6 +725,9 @@ nav ul li a:hover {
   letter-spacing: 0%;
   text-align: left;
 }
+.part-2 ul li a:hover {
+  color: black;
+}
 .part-3 {
   padding-bottom: 110px;
 }
@@ -711,6 +751,18 @@ nav ul li a:hover {
 }
 .display {
   display: none;
+}
+.img-1:hover {
+  transform: scale(1.2);
+}
+.img-2:hover {
+  transform: scale(1.2);
+}
+.img-3:hover {
+  transform: scale(1.2);
+}
+.img-4:hover {
+  transform: scale(1.2);
 }
 
 /* Responsive part for footer section  */
