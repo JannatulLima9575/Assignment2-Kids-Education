@@ -599,6 +599,17 @@ nav ul li a:hover {
   background: rgb(17, 17, 17);
 }
 
+/* Responsive part for stories section  */
+/* only for mobile devices */
+@media only screen and (max-width: 576px) {
+  .stories-container {
+    flex-direction: column;
+  }
+  .left-site {
+    display: none;
+  }
+}
+
 /* footer section  */
 .footer {
   background-color: #5d58f0;
