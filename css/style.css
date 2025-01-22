@@ -118,7 +118,6 @@ nav ul li a:hover {
   padding-right: 8%;
   gap: 50px;
   overflow: hidden;
-
 }
 .banner-title {
   font-size: 56px;
@@ -161,8 +160,7 @@ nav ul li a:hover {
   height: auto;
   object-fit: cover;
 } */
-.banner-right img 
-{
+.banner-right img {
   padding-left: 68%;
   overflow-y: hidden;
 }
@@ -360,7 +358,6 @@ nav ul li a:hover {
   }
 }
 
-
 /* Sliding Section */
 .scrolling-text {
   overflow: hidden;
@@ -372,7 +369,7 @@ nav ul li a:hover {
   position: relative;
   margin-top: 2rem;
 }
-.scrolling-text span{
+.scrolling-text span {
   display: inline-block;
   overflow: hidden;
   font-size: 24px;
@@ -460,12 +457,16 @@ nav ul li a:hover {
 .stories-btn {
   padding: 10px 25px;
   border-radius: 47.93px;
-  background: rgb(60, 216, 232);
+  background: cadetblue;
   color: #fff;
   border: none;
   position: relative;
   top: -20px;
   right: -40px;
+}
+.stories-btn:hover {
+  background-color: purple;
+  color: white;
 }
 .left-title {
   color: rgb(0, 0, 0);
@@ -652,6 +653,13 @@ nav ul li a:hover {
 /* Responsive part for stories section  */
 /* only for mobile devices */
 @media only screen and (max-width: 576px) {
+  .stories {
+    padding: 0px 2px;
+  }
+  .right-title {
+    font-size: 9.13px;
+    font-weight: 700;
+  }
   .stories-container {
     flex-direction: column;
   }
