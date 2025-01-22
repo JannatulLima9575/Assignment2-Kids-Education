@@ -122,6 +122,9 @@ nav ul li a:hover {
   text-align: left;
   padding-top: 112px;
 }
+.span-1 {
+  color: #5d58f0;
+}
 .banner-desc {
   color: rgb(17, 17, 17);
   font-family: Raleway;
@@ -175,6 +178,7 @@ nav ul li a:hover {
   background: url("../images/bg.png");
   gap: 80px;
   padding: 60px 0px 60px 0px;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
@@ -321,12 +325,60 @@ nav ul li a:hover {
   }
 }
 
+
+/* Sliding Section */
+.scrolling-text {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background-color: whitesmoke;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  margin-top: 2rem;
+}
+.scrolling-text span{
+  display: inline-block;
+  overflow: hidden;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Quicksand;
+  animation: slide-left 20s linear infinite;
+  text-align: center;
+  color: #007bff;
+}
+/* .text-one {
+  color: #007bff;
+}
+.text-two {
+  color: #28a745;
+
+}
+.text-three {
+  color: #dc3545;
+
+}
+.text-four {
+  color: purple;
+
+}
+.black {
+  color: black;
+} */
+@keyframes slide-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* Stories Section  */
 .second-main {
   background: url("../images/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
-    border: 1px solid rgb(31, 7, 255);
-    padding: 30px 0px 30px 0px;
+  padding: 30px 0px 30px 0px;
 }
 .stories {
   max-width: 1600px;
@@ -334,8 +386,6 @@ nav ul li a:hover {
   width: 100%;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid red;
 }
 .stories-title {
   color: rgb(0, 0, 0);
