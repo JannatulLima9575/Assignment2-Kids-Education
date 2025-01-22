@@ -114,6 +114,8 @@ nav ul li a:hover {
   max-width: 1800px;
   margin: 0 auto;
   gap: 50px;
+  overflow: hidden;
+
 }
 .banner-title {
   font-size: 56px;
@@ -152,6 +154,10 @@ nav ul li a:hover {
 .btn-primary:hover {
   transform: scale(1.2);
 }
+.banner-right {
+  height: auto;
+  object-fit: cover;
+}
 
 /* Responsive part for Banner section  */
 /* only for mobile devices */
@@ -161,6 +167,7 @@ nav ul li a:hover {
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow: hidden;
   }
   .banner-title,
   .banner-desc {
@@ -181,6 +188,7 @@ nav ul li a:hover {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .curriculum-title {
   color: rgb(0, 0, 0);
@@ -196,6 +204,7 @@ nav ul li a:hover {
   padding: 0px 140px;
   text-align: center;
   padding-top: 80px;
+  overflow: hidden;
 }
 .cart1 {
   padding: 53px 40px 53px 40px;
@@ -316,6 +325,10 @@ nav ul li a:hover {
 /* Responsive part for curriculum section  */
 /* only for mobile devices */
 @media only screen and (max-width: 576px) {
+  .curriculum {
+    overflow-y: hidden;
+    overflow: hidden;
+  }
   .curriculum-container {
     flex-direction: column;
     padding: 20px;
