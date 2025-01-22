@@ -678,6 +678,7 @@ nav ul li a:hover {
     padding: 5px 8px;
     font-size: 14px;
     font-weight: 400;
+    right: -10px;
   }
   .view-btn {
     margin-left: 160px;
