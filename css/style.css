@@ -511,6 +511,18 @@ nav ul li a:hover {
 }
 .card1-btn {
   border-radius: 47.93px;
+  background: #781d01;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+  padding: 10px 12px;
+  position: relative;
+  top: -20px;
+  right: -20px;
+  font-family: Raleway;
+  font-size: 0.9rem;
+  font-weight: 500;
+  /* border-radius: 47.93px;
   color: #ffffff;
   border: none;
   text-align: center;
@@ -522,7 +534,7 @@ nav ul li a:hover {
   right: -20px;
   font-family: Raleway;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 500; */
 }
 .card1-btn:hover {
   background-color: rgb(0, 102, 255);
@@ -542,6 +554,18 @@ nav ul li a:hover {
 }
 .card2-btn {
   border-radius: 47.93px;
+  background: #781d01;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+  padding: 10px 12px;
+  position: relative;
+  top: -20px;
+  right: -20px;
+  font-family: Raleway;
+  font-size: 0.9rem;
+  font-weight: 500;
+  /* border-radius: 47.93px;
   background: #5d58f0;
   color: #fff;
   border: none;
@@ -552,7 +576,7 @@ nav ul li a:hover {
   right: -20px;
   font-family: Raleway;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 500; */
 }
 .card2-btn:hover {
   background-color: #4caf50;
@@ -571,6 +595,18 @@ nav ul li a:hover {
 }
 .card3-btn {
   border-radius: 47.93px;
+  background: #781d01;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+  padding: 10px 12px;
+  position: relative;
+  top: -20px;
+  right: -20px;
+  font-family: Raleway;
+  font-size: 0.9rem;
+  font-weight: 500;
+  /* border-radius: 47.93px;
   background: #011058;
   color: #fff;
   border: none;
@@ -581,7 +617,7 @@ nav ul li a:hover {
   right: -20px;
   font-family: Raleway;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 500; */
 }
 .card3-btn:hover {
   background-color: rgb(0, 102, 255);
