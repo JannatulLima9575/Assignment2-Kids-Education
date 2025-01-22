@@ -503,6 +503,11 @@ nav ul li a:hover {
   box-sizing: border-box;
   border-radius: 10px;
   background: rgb(255, 255, 255);
+  position: relative;
+  /* max-width: 290px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgb(255, 255, 255); */
   /* max-width:291px; */
 }
 .s-card-1 img {
@@ -546,8 +551,13 @@ nav ul li a:hover {
   box-sizing: border-box;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  /* max-width:291px; */
   position: relative;
+  /* max-width: 290px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  /* max-width:291px; */
+  position: relative; */
 }
 .s-card-2 img {
   border-radius: 10px 10px 0px 0px;
@@ -587,7 +597,6 @@ nav ul li a:hover {
   box-sizing: border-box;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  /* max-width:291px; */
   position: relative;
 }
 .s-card-3 img {
@@ -628,7 +637,6 @@ nav ul li a:hover {
   box-sizing: border-box;
   border-radius: 10px;
   background: rgb(255, 255, 255);
-  /* max-width:291px; */
   position: relative;
 }
 .s-card-4 img {
@@ -714,7 +722,7 @@ nav ul li a:hover {
     /* padding: 5px 8px; */
     font-size: 14px;
     font-weight: 400;
-    right: -10px;
+    /* right: -10px; */
   }
   .view-btn {
     margin-left: 160px;
